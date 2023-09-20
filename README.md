@@ -4,6 +4,22 @@ Welcome to this repository, where we delve deep into the intricacies of graph al
 # Repository Structure
 Our repository is organized into three main directories:
 
+```commandline
+├── core
+│   └── fibonacci_heap.py
+├── src
+│   ├── breadth_first_search.py
+│   ├── depth_first_search.py
+│   ├── dijkstra_fibonacci_heap.py
+│   └── page_rank.py
+└── test
+    ├── bfs_advanced_test.py
+    ├── dfs_advanced_test.py
+    ├── dijkstra_fibonacci_heap_advanced_test.py
+    ├── dijkstra_fibonacci_heap_test.py
+    └── page_rank_test.py
+```
+
 1. **core** - This is the backbone of our implementations. Here, you'll find foundational data structures that the main algorithms in the `src` directory rely upon. For instance, our `dijkstra_fibonacci_heap.py` algorithm is built upon the Fibonacci heap data structure found here.
     
     - `fibonacci_heap.py`: Implementation of the Fibonacci heap data structure.
