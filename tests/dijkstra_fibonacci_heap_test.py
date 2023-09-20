@@ -1,5 +1,5 @@
 import unittest
-from src.Graph_Algorithms.dijkstra_fibonacci_heap import Graph
+from src.dijkstra_fibonacci_heap import Graph
 
 class TestDijkstraFibonacciHeap(unittest.TestCase):
 

@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from src.Graph_Algorithms.PageRank import PageRank
+from src.page_rank import PageRank
 
 class TestPageRank(unittest.TestCase):
     def normalize_matrix(self, graph_matrix):

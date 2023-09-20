@@ -1,6 +1,6 @@
 
 import unittest
-from src.Search_Algorithms.Breadth_First_Search import GraphBFS
+from src.breadth_first_search import GraphBFS
 
 class TestBFSAdvanced(unittest.TestCase):
 

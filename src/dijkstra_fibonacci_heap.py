@@ -1,4 +1,4 @@
-from fibonacci_heap_implementation import FibonacciHeap, Node, extract_min, insert, decrease_key
+from core.fibonacci_heap import FibonacciHeap, Node, extract_min, insert, decrease_key
 from collections import defaultdict
 
 class Graph:

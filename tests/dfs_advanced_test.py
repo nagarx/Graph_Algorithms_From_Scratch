@@ -1,5 +1,5 @@
 import unittest
-from src.Search_Algorithms.Depth_First_Search import GraphDFS
+from src.depth_first_search import GraphDFS
 
 class TestDFSAdvanced(unittest.TestCase):
 

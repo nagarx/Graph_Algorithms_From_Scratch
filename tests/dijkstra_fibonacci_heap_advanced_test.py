@@ -1,7 +1,7 @@
 # Generating advanced test cases for Dijkstra's Algorithm implemented with a Fibonacci Heap
 import random
 import unittest
-from dijkstra_fibonacci_heap import Graph
+from src.dijkstra_fibonacci_heap import Graph
 
 class TestDijkstraFibonacciHeapAdvanced(unittest.TestCase):
 
