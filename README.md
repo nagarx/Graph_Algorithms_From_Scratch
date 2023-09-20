@@ -39,7 +39,7 @@ BFS Tree: BFS produces a BFS tree, which can be represented as $T=\left(V, E_T\r
 ### Algorithm Complexity
 #### Time Complexity:
 BFS visits each vertex exactly once and examines each edge once or twice (undirected graphs). Therefore, the time complexity is:
-$$ O(|V|+|E|) $$
+$$O(|V|+|E|)$$
 where $|V|$ is the number of vertices and $|E|$ is the number of edges.
 #### Space Complexity:
 The space complexity depends on the data structures used:
@@ -71,7 +71,7 @@ DFS Tree: DFS yields a DFS tree, which is defined as $T=\left(V, E_T\right)$, wh
 ### Algorithm Complexity
 #### Time Complexity:
 Since DFS visits each vertex and examines each edge once, the time complexity is:
-$$ O(|V|+|E|) $$
+$$O(|V|+|E|)$$
 where $|V|$ signifies the number of vertices and $|E|$ denotes the number of edges.
 #### Space Complexity:
 The space efficiency is contingent upon the structures used:
@@ -153,7 +153,7 @@ Dijkstra with Fibonacci Heaps:
 - Extract-Min operation: $O(\log V)$ amortized time.
 - Decrease-Key operation: $O(1)$ amortized time.
 Considering the above, the time complexity becomes:
-$$ O(|E|+|V| \log |V|) $$
+$$O(|E|+|V| \log |V|)$$
 This makes the Fibonacci Heap variant faster for graphs with fewer edges.
 
 ### Advanced Aspects of Dijkstra with Fibonacci Heaps
