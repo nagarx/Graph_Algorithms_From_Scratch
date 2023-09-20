@@ -105,7 +105,7 @@ PageRank is an algorithm developed by Larry Page and Sergey Brin, co-founders of
 Basic Principle: The PageRank of a page is the sum of a fraction of the PageRank of each page linking to it.
 
 Given a graph $G$ of $N$ web pages with the set $P$ of pages and the set $E$ of links between them, the PageRank $P R\left(p_i\right)$ of page $p_i$ is given by:
-$$ P R\left(p_i\right)=(1-d)+d \times \sum_{p_j \in M\left(p_i\right)} \frac{P R\left(p_j\right)}{L\left(p_j\right)} $$
+$$P R\left(p_i\right)=(1-d)+d \times \sum_{p_j \in M\left(p_i\right)} \frac{P R\left(p_j\right)}{L\left(p_j\right)}$$
 Where:
 - $M\left(p_i\right)$ is the set of pages linking to $p_i$
 - $L\left(p_j\right)$ is the number of outbound links on page $p_j$
